@@ -10,3 +10,4 @@ jupyter_nbextensions_configurator
 sklearn
 vega
 livelossplot
+tf-explain
