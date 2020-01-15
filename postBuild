@@ -1,6 +1,10 @@
+# Reinstall ipykernel due to weird errors on binder
+pip install --upgrade ipykernel
+
 jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension enable init_cell/main
 jupyter nbextension install --sys-prefix --py vega
+
 # Trust the Intro to AI notebook
 jupyter trust IntroToAI.ipynb
