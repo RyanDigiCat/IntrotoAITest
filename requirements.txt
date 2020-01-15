@@ -5,6 +5,7 @@ seaborn
 altair
 tensorflow
 ipywidgets
+ipykernel
 jupyter_contrib_nbextensions
 jupyter_nbextensions_configurator
 sklearn
