@@ -1,5 +1,6 @@
 # Reinstall ipykernel due to weird errors on binder
-pip install --upgrade ipykernel
+pip uninstall ipykernel ipython jupyter_client jupyter_core traitlets ipython_genutils -y
+pip install ipykernel ipython jupyter_client jupyter_core traitlets ipython_genutils
 
 jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
