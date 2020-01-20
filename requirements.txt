@@ -3,7 +3,7 @@ pandas
 matplotlib
 seaborn
 altair
-tensorflow
+tensorflow>=2.0.0
 ipywidgets
 jupyter_contrib_nbextensions
 jupyter_nbextensions_configurator
